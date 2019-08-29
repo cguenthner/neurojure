@@ -4,7 +4,7 @@ Neurojure is a Clojure library for building, training, and testing neural networ
 architectures and optimization techniques. It uses [Ranvier](https://github.com/cguenthner/ranvier) for
 optimization and [Tensure](https://github.com/cguenthner/tensure) for tensor computations.
 
-Neurojure is a work-in-progress. It currently provides functions for implementing the following techniques:
+Neurojure provides functions for implementing the following techniques:
 
 - _Deep feedforward networks_
 - _Convolutional networks_ - the `conv2d` layer works on datasets of two spatial dimensions (width x height x
@@ -22,6 +22,10 @@ Neurojure is a work-in-progress. It currently provides functions for implementin
 - _Robust optimization methods_ - With [Ranvier](https://github.com/cguenthner/ranvier), Neurojure networks
   can be trained using basic gradient descent and popular varients--gradient descent with momentum, RMSProp,
   and Adam
+
+Neurojure is currently useful for many applications, including research of novel architectures and training of
+small to medium-size networks. There are plans to extend its functionality to support a wider range of
+scenarios, including training of large networks and datasets in a distributed environment.
 
 ## Getting Started
 
